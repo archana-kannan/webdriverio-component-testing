@@ -1,0 +1,19 @@
+{
+  "name": "webdriverio-component-testing",
+  "type": "module",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/vue": "^8.1.0",
+    "@types/node": "^26.6.5",
+    "@vitejs/plugin-vue": "^6.0.10",
+    "@wdio/browser-runner": "^10.0.2",
+    "@wdio/cli": "^10.0.2",
+    "@wdio/globals": "^10.0.2",
+    "@wdio/mocha-framework": "^10.0.1",
+    "@wdio/spec-reporter": "^10.0.1",
+    "expect-webdriverio": "^8.0.0"
+  },
+  "scripts": {
+    "wdio": "node ./node_modules/@wdio/cli/bin/wdio.js run ./wdio.conf.ts"
+  }
+}
