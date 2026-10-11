@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "npm run wdio",
+			"type": "shell",
+			"command": "npm.cmd",
+			"args": [
+				"run",
+				"wdio"
+			],
+			"problemMatcher": []
+		}
+	]
+}
